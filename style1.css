@@ -1,0 +1,108 @@
+body{
+    background-image: url(OIP.jpeg);
+}.grad-bar{
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(-45deg, #00d5ff, #000);
+    background-size: 400% 400%;
+    -webkit-animation: gradbar 15s ease infinite;
+    -moz-animation: gradbar 15s ease infinite;
+    animation: gradbar 15s ease infinite;
+    
+}
+.navbar{
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    align-items: center;
+    height: 50px;
+    overflow:hidden;
+}
+.navbar img{
+    height: 50px;
+    width: auto;
+    justify-self: start;
+    margin-left: 20px;
+    
+}
+.main{
+    width: 120%;
+    height: auto;
+}
+.nav-main{
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:color-mix(in srgb, red 50%, grey 50%);
+}
+.navbar ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    justify-content: end;
+    
+}
+.nav-item a{
+    color:#000;
+    font-size: 0.9rem;
+    font-weight:400;
+    text-decoration:none;
+    transition :color 0.3s ease-out;
+}
+.nav-item a:hover{
+    color:#fff;
+}
+.menu-toggle{
+    justify-self: end;
+    margin-right: 25px;
+    display: none;
+}
+
+.h2{
+    text-align: center;  
+}
+.h4{
+    text-align: center;  
+}
+.Adresse_button{
+    background-color:#fff;
+        width: 5vw;
+        max-width: 70px;
+        height: 3vh;
+        max-height: 20px;
+        text-align:end;
+        font-size: 15px;
+        border: none;
+        border-radius:5px ;margin: 4px 2px;padding: 15px 34px;
+        position:absolute; left: 670px; top: 720px;
+    
+      }
+      
+    .form1{
+        position: absolute;left: 600px; top: 670px;
+    }
+    .Fin{
+        background-color: grey;
+    }
+    .text1{
+        text-align: center;
+    color: #fff;
+    
+        width: 120%;
+        height: auto;
+        min-height: 350px;
+        background-color: color-mix(in srgb, red 50%, grey 50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    
+    }
+.CS{
+    margin: auto;
+    width: 50%;
+    text-indent: 40px;
+};
+    
+    
+
